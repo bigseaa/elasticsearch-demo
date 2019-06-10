@@ -1,0 +1,22 @@
+http://localhost:9200/bigsea_demo/_mapping
+{
+	"properties": {
+		"name": {
+			"type": "text",
+			"analyzer": "ik_max_word",
+			"search_analyzer": "ik_smart"
+		},
+		"price": {
+			"type": "float"
+		},
+		"description": {
+			"type": "text",
+			"analyzer": "ik_max_word",
+			"search_analyzer": "ik_smart"
+		},
+		"updatetime": {
+			"type": "date",
+			"format": "yyyy-MM-dd HH:mm:ss || yyyy-MM-dd || epoch_millis"
+		}
+	}
+}
