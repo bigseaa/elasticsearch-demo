@@ -20,7 +20,7 @@
         <restHighLevel.version>6.5.4</restHighLevel.version>
         <elasticsearch.version>6.5.4</elasticsearch.version>
         <es.restclient.version>6.5.4</es.restclient.version>
-        <jackson.version>2.9.4</jackson.version>
+        <jackson.version>2.9.10.1</jackson.version>
     </properties>
 
     <dependencies>
