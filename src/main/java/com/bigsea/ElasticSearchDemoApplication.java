@@ -7,10 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages={"com.bigsea"})//扫描类
-public class SpringbootDemoApplication {
+public class ElasticSearchDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootDemoApplication.class, args);
+        SpringApplication.run(ElasticSearchDemoApplication.class, args);
     }
 
 }

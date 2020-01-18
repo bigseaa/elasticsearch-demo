@@ -1,3 +1,4 @@
+/*
 package com.bigsea.search;
 
 import org.elasticsearch.action.DocWriteResponse;
@@ -40,10 +41,12 @@ public class TestIndex {
     @Autowired
     RestClient restClient;
 
-    /**
+    */
+/**
      * 创建索引库
      * @throws IOException
-     */
+     *//*
+
     @Test
     public void testCreateIndex() throws IOException {
         // 创建索引请求对象
@@ -74,10 +77,12 @@ public class TestIndex {
         System.out.println(acknowledged);
     }
 
-    /**
+    */
+/**
      * 删除索引库
      * @throws IOException
-     */
+     *//*
+
     @Test
     public void testDeleteIndex() throws IOException {
         // 删除索引请求对象
@@ -91,10 +96,12 @@ public class TestIndex {
         System.out.println(acknowledged);
     }
 
-    /**
+    */
+/**
      * 添加文档
      * @throws IOException
-     */
+     *//*
+
     @Test
     public void testAddDoc() throws IOException {
         // 准备json数据
@@ -112,10 +119,12 @@ public class TestIndex {
         System.out.println(result);
     }
 
-    /**
+    */
+/**
      * 查询文档
      * @throws IOException
-     */
+     *//*
+
     @Test
     public void testGetDoc() throws IOException {
         GetRequest getRequest = new GetRequest(
@@ -127,10 +136,12 @@ public class TestIndex {
         System.out.println(sourceAsMap);
     }
 
-    /**
+    */
+/**
      * 更新文档
      * @throws IOException
-     */
+     *//*
+
     @Test
     public void updateDoc() throws IOException {
         UpdateRequest updateRequest = new UpdateRequest("bigseatest", "hEgtMWsBlmODdCaori-F");
@@ -142,10 +153,12 @@ public class TestIndex {
         System.out.println(status);
     }
 
-    /**
+    */
+/**
      * 根据id删除文档
      * @throws IOException
-     */
+     *//*
+
     @Test
     public void testDelDoc() throws IOException {
         //删除索引请求对象
@@ -157,3 +170,4 @@ public class TestIndex {
         System.out.println(result);
     }
 }
+*/
